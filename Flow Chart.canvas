@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"5720205549962429","type":"group","x":-420,"y":-120,"width":290,"height":360,"label":"Vehicle"},
+		{"id":"b5e5d69f502c40eb","x":-55,"y":-120,"width":290,"height":360,"type":"group","label":"Vehicle"},
+		{"id":"21b3995504a24c6c","type":"text","text":"Vehicle","x":-400,"y":160,"width":250,"height":60},
+		{"id":"2eef23b411a5ef43","type":"text","text":"Vehicle","x":-35,"y":160,"width":250,"height":60},
+		{"id":"3464053268003d23","type":"text","text":"Sensor Data:\n\n1. Accelerometer\n2. GPS\netc","x":-35,"y":0,"width":250,"height":140},
+		{"id":"a021a51c7e9cfea9","type":"text","text":"ESP32 Controller","x":-35,"y":-100,"width":250,"height":60},
+		{"id":"6c9ac475b5edc316","type":"text","text":"ESP32 Controller","x":-400,"y":-100,"width":250,"height":60},
+		{"id":"d9f25b0126b3e8c4","type":"text","text":"Control Center:\nPolarFire Soc icicle Kit","x":-275,"y":-308,"width":250,"height":58},
+		{"id":"6e03f26a70563606","x":-25,"y":-510,"width":297,"height":155,"type":"text","text":"AI/ML Model:\n1. Traffic Density\n2. Path Prediction\n3. Emergency Response"},
+		{"id":"87d39e960d0e0766","x":-340,"y":-570,"width":250,"height":60,"type":"text","text":"Virtual World"},
+		{"id":"57cf8eb5b640e51e","x":300,"y":-29,"width":260,"height":149,"type":"text","text":"Output Response:\n1. Alerts\n2. Paths\n3. Steering Input"},
+		{"id":"15e717456afb8772","type":"text","text":"Sensor Data:\n1. Accelerometer\n2. GPS\netc","x":-400,"y":0,"width":250,"height":140}
+	],
+	"edges":[
+		{"id":"c13e206b3b192938","fromNode":"21b3995504a24c6c","fromSide":"top","toNode":"15e717456afb8772","toSide":"bottom"},
+		{"id":"98a8b263056f3005","fromNode":"15e717456afb8772","fromSide":"top","toNode":"6c9ac475b5edc316","toSide":"bottom"},
+		{"id":"fdc85bb967772e94","fromNode":"2eef23b411a5ef43","fromSide":"top","toNode":"3464053268003d23","toSide":"bottom"},
+		{"id":"1c1a0e1ac16c1193","fromNode":"3464053268003d23","fromSide":"top","toNode":"a021a51c7e9cfea9","toSide":"bottom"},
+		{"id":"168c80b5f8379f3f","fromNode":"b5e5d69f502c40eb","fromSide":"top","toNode":"d9f25b0126b3e8c4","toSide":"bottom"},
+		{"id":"a27336a859c5054a","fromNode":"5720205549962429","fromSide":"top","toNode":"d9f25b0126b3e8c4","toSide":"bottom"},
+		{"id":"8ea4d6cc08803fae","fromNode":"d9f25b0126b3e8c4","fromSide":"left","toNode":"87d39e960d0e0766","toSide":"left"},
+		{"id":"9b2187b3f87eac92","fromNode":"87d39e960d0e0766","fromSide":"bottom","toNode":"6e03f26a70563606","toSide":"top"},
+		{"id":"03d69002dc6e3c46","fromNode":"6e03f26a70563606","fromSide":"bottom","toNode":"d9f25b0126b3e8c4","toSide":"top"},
+		{"id":"548767ec9a864395","fromNode":"d9f25b0126b3e8c4","fromSide":"right","toNode":"57cf8eb5b640e51e","toSide":"top"},
+		{"id":"08865cf08d7173c8","fromNode":"57cf8eb5b640e51e","fromSide":"bottom","toNode":"b5e5d69f502c40eb","toSide":"bottom"},
+		{"id":"bdd8ea27b72e84bf","fromNode":"57cf8eb5b640e51e","fromSide":"bottom","toNode":"5720205549962429","toSide":"bottom"}
+	]
+}
